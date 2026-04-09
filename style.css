@@ -1,0 +1,221 @@
+.heading{
+    margin-top: 0%;
+    text-align: center;
+    background-color: rgba(225, 212, 212, 0.774);
+    padding: 75px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0%;
+    
+    
+   
+    
+
+}
+IMG{
+    text-align: center;
+    width: 97%;
+    height: 85%;
+    border-radius: 8px;
+}
+h3 span{
+    background:linear-gradient(to left,#f5d837,#bbb812) ;/*you can make a graident from any web sites we give here span tag which mean our backgruond works only the behand text of h2 not full h2 area*/
+    padding: 10px 55px;
+    border-radius: 20px;
+    margin-left: 27%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.bck{
+    background-image: url(./51x1l0kFFkL._AC_.jpg);
+    background-attachment: fixed;
+}
+
+
+.intro{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 7px;
+    
+}
+body{
+    background:linear-gradient(to left,#e6e5df,#d3d06f) ;
+    margin:0%;
+}
+.our{
+    margin-left: 20%;
+   
+}
+.name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform:uppercase ;
+    margin: 20px 0px 30px 0px;
+    margin-left: 38%;
+}
+.circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-left: 44%;
+}
+.style a:hover{
+    background-color: rgb(30 30 30 / 25%);
+}
+.style a i{
+    margin: 5px;
+
+}
+.yt-style{
+    color: #ff0000;
+    text-decoration: none;
+}
+.instagram-style{
+    color: #0e76a8;
+    text-decoration: none;
+}
+.link-style{
+    text-decoration: none;
+}
+.face-style{
+    color: #dd2a7b;
+    text-decoration: none;
+}
+.style a{
+    background-color: rgb(222, 209, 209);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    font-size: 1.25em;
+}
+.style{
+    margin-left: 33%;
+}
+.about-title{
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #050505de;
+}
+.about-content{
+    color: #1c1a3a;
+    font-weight: 900;
+    padding-bottom: 10px 0px 20px 0px;
+}
+footer{
+    /* overflow: hidden;*/
+     background-color: #333;
+     display: flex;
+     padding: 10px 0px;
+ }
+ footer a{
+     display: block;
+     
+     color: white;
+     padding: 14px 20px;
+     float: left;
+     text-decoration: none;
+ }
+ .copyright{
+     float: right;
+ }
+ footer a:hover{
+    background-color: #120f5e;
+ }
+ .body{
+    background-image: url(./71D9dyfdiOL._AC_UF1000\,1000_QL80_.jpg);
+ }
+
+ /* 🔥 RESPONSIVE DESIGN */
+
+/* Tablets */
+@media (max-width: 992px){
+
+    .heading{
+        padding:40px;
+        font-size: 24px;
+    }
+
+    h3 span{
+        margin-left: 10%;
+        padding: 10px 20px;
+    }
+
+    .intro{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intro img{
+        width: 45%;
+        height: auto;
+        margin:10px;
+    }
+
+    .circle{
+        margin-left: 40%;
+    }
+
+    .name{
+        margin-left: 30%;
+    }
+
+    .style{
+        margin-left: 20%;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 576px){
+
+    .heading{
+        padding:20px;
+        font-size: 18px;
+    }
+
+    h3 span{
+        margin-left: 0;
+        display:block;
+        text-align:center;
+        padding:10px;
+    }
+
+    .intro{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro img{
+        width: 90%;
+        height: auto;
+    }
+
+    .circle{
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+    }
+
+    .name{
+        margin-left: 0;
+        text-align:center;
+    }
+
+    .style{
+        margin-left: 0;
+        text-align:center;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer a{
+        padding:10px;
+    }
+}
